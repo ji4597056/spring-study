@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Import;
  * @since 2017/12/02 0:44
  */
 @Configuration
-@Import({AConfig.class,BConfig.class,CConfig.class})
+@Import({AConfig.class, BConfig.class, CConfig.class, PostConfig.class})
 public class AppConfig {
 
 }
